@@ -1,2 +1,2 @@
 # string-exercise
-This is an exercise about string
+This is an exercise about string object
