@@ -18,9 +18,18 @@ function parseAndDisplayName(name) {
     let firstName = name.substring(0, space);
     let lastName = name.substring(space + 1);
     console.log(firstName, lastName, name );
+    let spanLast = document.getElementById('last');
+    spanLast.innerText = lastName;
+
+    let spanFirst = document.getElementById('first');
+    spanFirst.innerText = firstName;
+
+    let spanFull = document.getElementById('full');
+    spanFull.innerText = name;
     
 }
 parseAndDisplayName('Kinshuk Tiwari');
+
 
 
 
